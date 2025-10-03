@@ -4,11 +4,12 @@ import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 const navigationItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Faculty & Staff", href: "/faculty" },
+  { name: "HOD & Faculty", href: "/faculty" },
   { name: "Research", href: "/research" },
 
   { name: "Placements", href: "/placements" },
@@ -27,7 +28,8 @@ export function Navigation() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">B</span>
+             
+              <Image src="/logo.png" alt="Biotech Logo" width={32} height={32} className="w-8 h-8" />
             </div>
             <div>
               <h1 className="font-serif font-bold text-lg text-gray-900">Biotechnology</h1>

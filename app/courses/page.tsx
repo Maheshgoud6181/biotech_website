@@ -134,8 +134,12 @@ const programs = {
     ],
   },
 }
+ 
+export default async function CoursesPage() {
+//   await new Promise((resolve) => {
+//   setTimeout(resolve, 5000);
+// });
 
-export default function CoursesPage() {
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -163,15 +167,15 @@ export default function CoursesPage() {
                   <GraduationCap className="h-8 w-8 text-emerald-600" />
                 </div>
                 <h3 className="font-serif font-bold text-xl text-gray-900 mb-2">B.Tech Biotechnology</h3>
-                <p className="text-gray-600 text-sm mb-4">4-year undergraduate program</p>
+                <p className="text-gray-600 text-sm mb-4">4-5 year undergraduate program</p>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-gray-600">Duration:</span>
-                    <span className="font-medium">4 Years</span>
+                    <span className="font-medium">4-5 Years</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Seats:</span>
-                    <span className="font-medium">60</span>
+                    <span className="font-medium">60+</span>
                   </div>
                 </div>
               </CardContent>

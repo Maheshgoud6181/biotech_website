@@ -23,16 +23,16 @@ import {
 const placementStats = {
   currentYear: {
     year: "2024",
-    placementRate: 95,
-    averagePackage: 12.5,
-    highestPackage: 45,
+    placementRate: 62,
+    averagePackage: 9.05,
+    highestPackage: 12,
     totalOffers: 142,
     studentsPlaced: 135,
     totalStudents: 142,
-    internshipRate: 98,
+    internshipRate: 65,
   },
   previousYears: [
-    { year: "2023", placementRate: 92, averagePackage: 11.8, highestPackage: 42 },
+    { year: "2023", placementRate: 64, averagePackage: 11.8, highestPackage: 14 },
     { year: "2022", placementRate: 89, averagePackage: 10.5, highestPackage: 38 },
     { year: "2021", placementRate: 87, averagePackage: 9.8, highestPackage: 35 },
   ],
@@ -200,8 +200,8 @@ export default function PlacementsPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="font-serif font-bold text-3xl text-gray-900 mb-4">Placement Statistics 2024</h2>
-            <p className="text-lg text-gray-600">Outstanding placement record reflecting our academic excellence</p>
+            <h2 className="font-serif font-bold text-3xl text-gray-900 mb-4">Placement Statistics 2025</h2>
+            <p className="text-lg text-gray-600">Good placement record reflecting our academic excellence</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">

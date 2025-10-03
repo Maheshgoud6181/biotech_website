@@ -19,13 +19,13 @@ const highlights = [
     title: "Industry Partnerships",
     description: "Strong collaborations with leading biotech companies and research institutions.",
     stats: "25+ Partners",
-  },
-  {
-    icon: TrendingUp,
-    title: "Career Success",
-    description: "Outstanding placement record with top biotechnology and pharmaceutical companies.",
-    stats: "₹12L Average Package",
-  },
+  }
+  // {
+  //   icon: TrendingUp,
+  //   title: "Career Success",
+  //   description: "Outstanding placement record with top biotechnology and pharmaceutical companies.",
+  //   stats: "₹12L Average Package",
+  // },
 ]
 
 export function QuickHighlights() {
@@ -39,7 +39,7 @@ export function QuickHighlights() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-center-safe">
           {highlights.map((highlight, index) => (
             <Card key={index} className="group hover:shadow-lg transition-shadow duration-300 border-gray-200">
               <CardContent className="p-6">

@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Users, Award, BookOpen } from "lucide-react"
+import Image from "next/image"
 
 export function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-br from-emerald-50 to-white py-20 lg:py-32">
+    <section className="relative bg-gradient-to-br from-emerald-50 to-white py-20 lg:py-10">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[url('/abstract-biotech-pattern.png')] opacity-5"></div>
 
@@ -41,15 +42,15 @@ export function HeroSection() {
                 <div className="flex items-center justify-center w-12 h-12 bg-emerald-100 rounded-lg mx-auto mb-2">
                   <Users className="h-6 w-6 text-emerald-600" />
                 </div>
-                <div className="font-serif font-bold text-2xl text-gray-900">150+</div>
+                <div className="font-serif font-bold text-2xl text-gray-900">450+</div>
                 <div className="text-sm text-gray-600">Students</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-emerald-100 rounded-lg mx-auto mb-2">
                   <Award className="h-6 w-6 text-emerald-600" />
                 </div>
-                <div className="font-serif font-bold text-2xl text-gray-900">95%</div>
-                <div className="text-sm text-gray-600">Placement Rate</div>
+                <div className="font-serif font-bold text-2xl text-gray-900">62+</div>
+                <div className="text-sm text-gray-600">Projects</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-emerald-100 rounded-lg mx-auto mb-2">
@@ -69,6 +70,15 @@ export function HeroSection() {
                 alt="Biotechnology Laboratory at NIT Durgapur"
                 className="w-full h-full object-cover"
               />
+              
+              <Image
+                  src="/department.png" // Use public folder path
+                  alt="Biotechnology Laboratory at NIT Durgapur"
+                  className="rounded-2xl shadow-lg w-full h-full object-cover"
+                  fill
+                />
+
+
             </div>
             {/* Floating Cards */}
             <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-lg p-4 border">

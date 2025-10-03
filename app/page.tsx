@@ -5,6 +5,7 @@ import { LatestNews } from "@/components/latest-news"
 import { FeaturedResearch } from "@/components/featured-research"
 import { IndustryPartnerships } from "@/components/industry-partnerships"
 import { CTASection } from "@/components/cta-section"
+import Image from "next/image"  
 
 export default function HomePage() {
   return (
@@ -23,7 +24,8 @@ export default function HomePage() {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">B</span>
+                   <Image src="/logo.png" alt="Biotech Logo" width={32} height={32} className="w-8 h-8" />
+                  
                 </div>
                 <div>
                   <h3 className="font-serif font-bold text-lg">Biotechnology</h3>
