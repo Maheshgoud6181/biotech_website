@@ -302,7 +302,7 @@ export default function ContactPage() {
                       <MapPin className="h-4 w-4 mr-2 text-emerald-600 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="font-medium text-gray-900">From Durgapur Railway Station:</p>
-                        <p>Take auto-rickshaw or taxi (15 minutes, ₹50-100)</p>
+                        <p>Take Taxi or auto-rickshaw (15 minutes, ₹50-100)</p>
                       </div>
                     </div>
                     <div className="flex items-start">
@@ -316,7 +316,7 @@ export default function ContactPage() {
                       <MapPin className="h-4 w-4 mr-2 text-emerald-600 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="font-medium text-gray-900">Nearest Airport:</p>
-                        <p>Netaji Subhas Chandra Bose International Airport, Kolkata (160 km)</p>
+                        <p>Kazi Nazrul Islam Airport, Durgapur (16 km)</p>
                       </div>
                     </div>
                   </div>
@@ -331,7 +331,7 @@ export default function ContactPage() {
                   <div className="grid grid-cols-2 gap-3">
                     <Button variant="outline" size="sm" className="justify-start bg-transparent">
                       <User className="h-4 w-4 mr-2" />
-                      Faculty Directory
+                      Faculty
                     </Button>
                     <Button variant="outline" size="sm" className="justify-start bg-transparent">
                       <Building2 className="h-4 w-4 mr-2" />
@@ -339,11 +339,11 @@ export default function ContactPage() {
                     </Button>
                     <Button variant="outline" size="sm" className="justify-start bg-transparent">
                       <Phone className="h-4 w-4 mr-2" />
-                      Emergency Contacts
+                      Emergency
                     </Button>
                     <Button variant="outline" size="sm" className="justify-start bg-transparent">
                       <Mail className="h-4 w-4 mr-2" />
-                      Alumni Network
+                      Alumni
                     </Button>
                   </div>
                 </CardContent>

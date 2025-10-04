@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Users, Award, BookOpen } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -23,10 +24,13 @@ export function HeroSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/courses">
               <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white">
                 Explore Programs
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
+              </Link>
+              <Link href="/research">
               <Button
                 variant="outline"
                 size="lg"
@@ -34,6 +38,7 @@ export function HeroSection() {
               >
                 Research Excellence
               </Button>
+              </Link>
             </div>
 
             {/* Quick Stats */}
@@ -65,20 +70,20 @@ export function HeroSection() {
           {/* Image */}
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-emerald-100 to-emerald-200">
-              <img
-                src="/placeholder-ao14l.png"
+              {/* <img
+                src="/mabpicture.jpg"
                 alt="Biotechnology Laboratory at NIT Durgapur"
                 className="w-full h-full object-cover"
-              />
+              /> */}
               
               <Image
-                  src="/department.png" // Use public folder path
+                  src="/mabpicture.jpg" // Use public folder path
                   alt="Biotechnology Laboratory at NIT Durgapur"
                   className="rounded-2xl shadow-lg w-full h-full object-cover"
                   fill
                 />
 
-
+   
             </div>
             {/* Floating Cards */}
             <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-lg p-4 border">

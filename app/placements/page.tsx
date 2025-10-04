@@ -22,7 +22,7 @@ import {
 
 const placementStats = {
   currentYear: {
-    year: "2024",
+    year: "2025",
     placementRate: 62,
     averagePackage: 9.05,
     highestPackage: 12,
@@ -32,9 +32,9 @@ const placementStats = {
     internshipRate: 65,
   },
   previousYears: [
-    { year: "2023", placementRate: 64, averagePackage: 11.8, highestPackage: 14 },
-    { year: "2022", placementRate: 89, averagePackage: 10.5, highestPackage: 38 },
-    { year: "2021", placementRate: 87, averagePackage: 9.8, highestPackage: 35 },
+    { year: "2024", placementRate: 62, averagePackage: 11.8, highestPackage: 14 },
+    { year: "2023", placementRate: 67, averagePackage: 9.02, highestPackage: 15 },
+    { year: "2022", placementRate: 52, averagePackage: 7.8, highestPackage: 18 },
   ],
 }
 

@@ -172,7 +172,7 @@ export default function AboutPage() {
                 <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-emerald-600" />
                 </div>
-                <h3 className="font-serif font-semibold text-lg text-gray-900 mb-2">NIRF Ranked</h3>
+                <h3 className="font-serif font-semibold text-lg text-gray-900 mb-2">NIRF Ranked 49th (2025)</h3>
                 <p className="text-gray-600 text-sm">National Institutional Ranking Framework recognition</p>
               </CardContent>
             </Card>
