@@ -551,7 +551,12 @@ export default function FacultyPage() {
                       </div>
                     </div>
 
-                    <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">View Profile</Button>
+                    <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white"  onClick={() =>
+    window.open(
+      "https://nitdgp.ac.in/department/biotechnology/faculty-2/sufia-khannam-kazy",
+      "_blank"
+    )
+  }>View Profile</Button>
                   </div>
 
                   </div>
@@ -658,7 +663,12 @@ export default function FacultyPage() {
                       </div>
                     </div>
 
-                    <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">View Profile</Button>
+                    <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white" onClick={() =>
+    window.open(
+      "https://nitdgp.ac.in/department/biotechnology/faculty-2",
+      "_blank"
+    )
+  }>View Profile</Button>
                   </div>
                 </CardContent>
               </Card>

@@ -1,3 +1,5 @@
+"use client";
+
 import { Card, CardContent } from "@/components/ui/card"
 
 export function IndustryPartnerships() {
@@ -36,7 +38,7 @@ export function IndustryPartnerships() {
 
         <div className="text-center mt-8">
           <p className="text-gray-600 mb-4">Interested in partnering with us?</p>
-          <button className="bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors">
+          <button className="bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors" onClick={() => alert("This feature is currently under development. Thank you for your patience")}>
             Explore Partnership Opportunities
           </button>
         </div>

@@ -1,7 +1,11 @@
+"use client";
+
 import { Card, CardContent } from "@/components/ui/card"
 import { GraduationCap, Users, FlaskConical, ArrowRight } from "lucide-react"
+import { useRouter } from "next/navigation";
 
 export function CTASection() {
+  const router = useRouter();
   const actions = [
     {
       icon: GraduationCap,
@@ -53,12 +57,14 @@ export function CTASection() {
                   </div>
                   <h3 className="text-xl font-semibold mb-3 text-white">{item.title}</h3>
                   <p className="text-gray-300 mb-6">{item.description}</p>
+                 
                   <button
-                    className={`${item.color} text-white px-6 py-3 rounded-lg transition-colors flex items-center mx-auto`}
+                    className={`${item.color} text-white px-6 py-3 rounded-lg transition-colors flex items-center mx-auto`}  onClick={() => router.push("/contact")}  
                   >
                     {item.action}
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </button>
+                
                 </CardContent>
               </Card>
             )

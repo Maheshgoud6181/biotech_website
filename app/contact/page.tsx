@@ -154,7 +154,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form and Map */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50" id="fillform">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
@@ -329,19 +329,19 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-2 gap-3">
-                    <Button variant="outline" size="sm" className="justify-start bg-transparent">
+                    <Button variant="outline" size="sm" className="justify-start bg-transparent" onClick={() => alert("⏳ Coming soon! We are working to make this feature available shortly.")}>
                       <User className="h-4 w-4 mr-2" />
                       Faculty
                     </Button>
-                    <Button variant="outline" size="sm" className="justify-start bg-transparent">
+                    <Button variant="outline" size="sm" className="justify-start bg-transparent"  onClick={() => alert("⏳ Coming soon! We are working to make this feature available shortly.")}>
                       <Building2 className="h-4 w-4 mr-2" />
                       Campus Tour
                     </Button>
-                    <Button variant="outline" size="sm" className="justify-start bg-transparent">
+                    <Button variant="outline" size="sm" className="justify-start bg-transparent"  onClick={() => alert("⏳ Coming soon! We are working to make this feature available shortly.")}>
                       <Phone className="h-4 w-4 mr-2" />
                       Emergency
                     </Button>
-                    <Button variant="outline" size="sm" className="justify-start bg-transparent">
+                    <Button variant="outline" size="sm" className="justify-start bg-transparent"  onClick={() => alert("⏳ Coming soon! We are working to make this feature available shortly.")}>
                       <Mail className="h-4 w-4 mr-2" />
                       Alumni
                     </Button>

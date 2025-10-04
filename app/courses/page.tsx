@@ -286,11 +286,12 @@ export default async function CoursesPage() {
                   </div> 
 
                   <div className="mt-8 flex gap-4">
-                    <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">
+                    <Button className="bg-emerald-600 hover:bg-emerald-700 text-white" onClick={() => alert("⏳ Coming soon! We are working to make this feature available shortly.")}>
+                      
                       <Download className="h-4 w-4 mr-2" />
                       Download Syllabus
                     </Button>
-                    <Button variant="outline" className="border-emerald-600 text-emerald-600 bg-transparent">
+                    <Button variant="outline" className="border-emerald-600 text-emerald-600 bg-transparent" onClick={() => alert("⏳ Coming soon! We are working to make this feature available shortly.")}>
                       Admission Process
                     </Button>
                   </div>

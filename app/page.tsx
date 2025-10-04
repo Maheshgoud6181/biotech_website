@@ -14,7 +14,7 @@ export default function HomePage() {
       <HeroSection />
       <QuickHighlights />
       <LatestNews />
-      <FeaturedResearch />
+      {/* <FeaturedResearch /> */}
       <IndustryPartnerships />
       <CTASection />
 

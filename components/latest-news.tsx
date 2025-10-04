@@ -61,11 +61,11 @@ export function LatestNews() {
           ))}
         </div>
 
-        <div className="text-center mt-8">
+        {/* <div className="text-center mt-8">
           <button className="bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors">
             View All News
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   )
